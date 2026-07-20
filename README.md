@@ -2,7 +2,7 @@
 
 Press a tutorial video into a permanent skill for your AI coding agent.
 
-A video goes in. The press pulls the transcript (captions, or whisper when there are none) and the key frames, then a frontier model distills the *actual technique* — steps, numbers, code, gotchas — into a `SKILL.md` your agent reads in every future session. Watch it once, keep the skill forever.
+A video goes in. The press pulls the transcript (captions, or whisper when there are none) and the key frames, then a frontier model distills the *actual technique* (steps, numbers, code, gotchas) into a `SKILL.md` your agent reads in every future session. Watch it once, keep the skill forever.
 
 This is the open-source engine behind [skillpress.dev](https://skillpress.dev). Prompt engineering got you better answers; context engineering got you better sessions; [skill engineering](https://skillpress.dev/skill-engineering/) gets your agent permanent capabilities.
 
@@ -22,11 +22,11 @@ cp .env.example .env   # add your ANTHROPIC_API_KEY
 node --env-file=.env press.mjs "https://www.youtube.com/watch?v=phWxA89Dy94"
 ```
 
-The pressed skill lands in `~/.claude/skills/<name>/SKILL.md` (change with `--out <dir>` or `SKILLS_DIR`). Claude Code picks it up automatically; any agent that reads instruction files can use it — for Codex, append the content to your `AGENTS.md`.
+The pressed skill lands in `~/.claude/skills/<name>/SKILL.md` (change with `--out <dir>` or `SKILLS_DIR`). Claude Code picks it up automatically, and any agent that reads instruction files can use it. For Codex, append the content to your `AGENTS.md`.
 
 ## What makes a pressing good
 
-The press is deliberately picky. Motivation, opinions, news, entertainment: no skill is written, and that is the press working, not failing. A genuine step-by-step method, framework, or code technique gets captured with the exact steps, scripts, and numbers from the video — written for the doer, not the watcher. Every skill cites its source video at the bottom: creators deserve the credit and the click.
+The press is deliberately picky. Motivation, opinions, news, entertainment: no skill is written, and that is the press working, not failing. A genuine step-by-step method, framework, or code technique gets captured with the exact steps, scripts, and numbers from the video, written for the doer, not the watcher. Every skill cites its source video at the bottom: creators deserve the credit and the click.
 
 ## Configuration
 
