@@ -1,0 +1,17 @@
+{
+  "name": "skillpress-press",
+  "version": "1.0.0",
+  "description": "Press a tutorial video into a permanent SKILL.md for your AI coding agent. Video in, tested playbook out.",
+  "type": "module",
+  "bin": { "skillpress-press": "./press.mjs" },
+  "scripts": {
+    "press": "node --env-file=.env press.mjs"
+  },
+  "engines": { "node": ">=20.6.0" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.110.0"
+  },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/strohlio/skillpress-press" },
+  "keywords": ["claude-code", "agent-skills", "skill-engineering", "yt-dlp", "ai-agents", "mcp"]
+}
