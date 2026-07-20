@@ -43,6 +43,8 @@ The press is deliberately picky. Motivation, opinions, news, entertainment: no s
 
 [skillpress.dev](https://skillpress.dev) runs this same press as a service, plus the parts that don't fit in a CLI: a curated library of tested skills, a community shelf of member pressings, and an MCP server so your Claude or Codex can browse and install skills by itself (`claude mcp add skillpress …`). Three skills are free.
 
-## License
+## License and credit
 
-MIT. Skills you press from others' videos carry their creators' knowledge. Keep the source citations intact and be generous with credit.
+MIT license, copyright [Strohl.ai](https://strohl.ai).
+
+One ask that is not legal, just decent: skills you press from others' videos carry their creators' knowledge. Keep the source citations intact and be generous with credit.
