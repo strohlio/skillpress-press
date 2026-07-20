@@ -45,4 +45,4 @@ The press is deliberately picky. Motivation, opinions, news, entertainment: no s
 
 ## License
 
-MIT. Skills you press from others' videos carry their creators' knowledge — keep the source citations intact and be generous with credit.
+MIT. Skills you press from others' videos carry their creators' knowledge. Keep the source citations intact and be generous with credit.
